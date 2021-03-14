@@ -213,3 +213,96 @@ display: none;
   background-size: cover;
   margin-left: 8px;
 }
+
+.main-container-all {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  padding: 20px 10px;
+  height: auto;
+  background-color: var(--warm-black);
+  color:var(--just-white);
+}
+.main-container-all .batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('./assets/icons/batata.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -3%;
+  left: calc(50% - 20px);
+}
+.main-container-all .main-product--container {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+.main-container-all .main-product--container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.main-container-all .main-product--container p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #858585;
+}
+
+.main-article--container {
+  width: 100%;
+  /* text-align: center; */
+}
+.main-article {
+  width: 100%;
+  background-color: #3a3939;
+  height: auto;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+article .clock {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/icons/clock.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 8px;
+}
+article .eye {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/icons/eye.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 8px;
+}
+article .dollar {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/icons/dollar-sign.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 8px;
+}
+article .check {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/icons/check-circle.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 8px;
+}
+article .article-title {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
