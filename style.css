@@ -110,6 +110,8 @@ section .main-currency-table {
 section .main-currency-table table {
   width: 80%;
   margin: 0 auto;
+  min-width: 288px;
+  max-width: 500px;
 }
 section .main-currency-table td {
   font-size: 1.6rem;
@@ -136,4 +138,78 @@ section .main-currency-table td {
   font-weight: 300;
   line-height: 3.7rem;
   color: #757575;
+}
+section .main-currency-table .update__item {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.2rem;
+  /* background-color: blue; */
+  width:80%;
+  margin: 0 auto;
+  padding: 6px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-family: var(--inter);
+
+}
+section .main-currency-table .update__item1 {
+  background-color: var(--soft-orange);
+}
+section .main-currency-table .update__item2 {
+  background-color: var(--soft-blue);
+}
+section .main-currency-table .title__item2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.0rem;
+  color: var(--secondary-blue);
+}
+.container-arrow--left {
+  display: none;
+  height: 10px;
+  width: 12px;
+  background-image: url("./assets/icons/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 970px;
+  cursor: pointer;
+  -webkit-transform: scaleX(-1);
+}
+.container-arrow{
+  height: 10px;
+  width: 12px;
+  background-image: url("./assets/icons/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: 95%;
+  bottom: -85%;
+  cursor: pointer;
+}
+.table_2 {
+display: none;
+}
+.main-currency-table .down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('./assets/icons/trending-down.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 8px;
+}
+.main-currency-table .up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('./assets/icons/trending-up.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 8px;
 }
