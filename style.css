@@ -330,7 +330,7 @@ article .article-title {
 .main-slider-container-all {
   width: 100%;
   text-align: center;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 .main-cards-container {
   display: flex;
@@ -338,7 +338,7 @@ article .article-title {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   /* gap: 20px; */
-  height: 400px;
+  height: 370px;
   align-items: center;
 }
 .main-slider--text {
@@ -428,4 +428,35 @@ article .article-title {
 .cards---title {
   font-size: 1.8rem;
   padding-top: 25px;
+}
+
+
+/* footer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+footer .footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+footer .footer-left ul {
+  width: 85px;
+}
+footer .footer-left li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--just-white);
+}
+footer .footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
