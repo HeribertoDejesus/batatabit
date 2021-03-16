@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+<link rel="stylesheet" href="./css/pc.css" media="(min-width: 1024px)">
 </head>
 <body> 
   <header>
@@ -15,7 +17,7 @@
       <img src="./assets/img/logo.svg" alt="">
       <h1>La próxima revolución en el intercambio de criptomonedas</h1>
       <p class="text">Batatabit te ayudar a navergar entre los diferente precios y tendencias</p>
-      <a href="" class="link">Conoce nuestros Planes <span></span></a>
+      <a href="#cards" class="link">Conoce nuestros Planes <span></span></a>
     </div>
   </header>
   <main>
@@ -28,10 +30,9 @@
         <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo</p>
       </div>
     </section>
-    <section>
-      <!-- Table -->
+          <!-- Table -->
+    <section class="main-container-table-all">
       <div class="main-container-table">
-        <div class="container-arrow" id="arrow-right"></div>
         <div class="main-currency-table" id="table-1">
           <p class="title__item">Monedas</p>
           <div>
@@ -55,13 +56,13 @@
             </table>
           </div>
           <p class="update__item1 update__item"><b>Actualizado:</b>13 marzo 21:37</p>
+          <div class="container-arrow" id="arrow-right"></div>
         </div>
       </div>
     </section>
 <!-- sencond Table -->
-    <section>
+    <section class="main-container-table-all">
       <div class="main-container-table">
-        <div class="container-arrow--left" id="arrow-left"></div>
         <div class="main-currency-table table_2" id="table-2">
           <p class="title__item2">Comisiones</p>
           <div>
@@ -85,6 +86,7 @@
             </table>
           </div>
           <p class="update__item2 update__item"><b>Actualizado:</b>13 marzo 21:37</p>
+          <div class="container-arrow--left" id="arrow-left"></div>
         </div>
       </div>
     </section>
@@ -130,7 +132,7 @@
           <h2 class="main-slider--text">Escoje el plan que mejor se ajuste a ti.</h2>
           <p class="main-slider--description">Cualquier plan te da acceso completo a nuestra plataforma</p>
         </div>
-        <section class="main-cards-container">
+        <section class="main-cards-container" id="cards">
           <article class="cards-container">
             <p class="cards--recommended rm2">Básico</p>
             <p class="cards---title">Pago Anual</p>

@@ -167,27 +167,32 @@ section .main-currency-table .title__item2 {
 }
 .container-arrow--left {
   display: none;
-  height: 10px;
+  height: 15px;
   width: 12px;
   background-image: url("./assets/icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   position: absolute;
-  top: 970px;
+  /* top: 970px; */
+  top: 48%;
+  left: 1%;
   cursor: pointer;
   -webkit-transform: scaleX(-1);
 }
+.main-container-table {
+  position: relative;
+}
 .container-arrow{
-  height: 10px;
+  height: 15px;
   width: 12px;
   background-image: url("./assets/icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   position: absolute;
-  left: 95%;
-  bottom: -85%;
+  top: 48%;
+  right: 1%;
   cursor: pointer;
 }
 .table_2 {
@@ -218,7 +223,7 @@ display: none;
   position: relative;
   width: 100%;
   min-width: 320px;
-  padding: 20px 10px;
+  padding: 40px 10px;
   height: auto;
   background-color: var(--warm-black);
   color:var(--just-white);
@@ -252,7 +257,7 @@ display: none;
 .main-article--container {
   width: 100%;
   min-width: 310px;
-  max-width: 425px;
+  /* max-width: 25px; */
   margin: 0 auto;
 }
 .main-article {
@@ -262,6 +267,9 @@ display: none;
   padding: 10px 15px;
   font-size: 1.2rem;
   margin-bottom: 20px;
+  margin: 10px auto;
+  min-width: 288px;
+  max-width: 400px;
 }
 article .clock {
   display: block;
